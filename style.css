@@ -1,0 +1,116 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contacts {
+    background-color: rgb(70, 70, 70);
+    width: 30%;
+    margin-top: -8px;
+    margin-left: -8px;
+}
+
+.n {
+    width: 35px;
+}
+
+.d {
+    width: 45px;
+}
+
+.c {
+    width: 65%;
+    color: white;
+    font-size: 30px;
+    padding-left: 30px;
+    margin-right: 50px;
+}
+
+.a {
+    width: 10%;
+    padding: 10px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.buttonIn {
+    width: 280px;
+    position: relative;
+}
+
+input {
+    margin: 0px;
+    padding-left: 10px;
+    width: 115%;
+    outline: none;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(65, 65, 65);
+    border-bottom: 1px solid white;
+    color: white;
+    margin-left: 15px;
+}
+
+button {
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+    right: -60px;
+    z-index: 2;
+    border: none;
+    top: 2px;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(65, 65, 65);
+    transform: translateX(2px);
+}
+.contact-name {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: -100px;
+}
+
+.p-p {
+    border-radius: 50px;
+    width: 50px;
+    margin-left: 20px;
+    padding-top: 10px;
+    transition: all 1s ease;
+}
+
+td pre {
+    display: inline;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.title {
+    font-weight: lighter;
+    font-size: 16px;
+}
+.no{
+    margin-left: 365px;
+    margin-top: -3000px;
+    position: fixed;
+}
+.no img{
+    width: 901px;
+    height: 920px
+}
+.p-p:hover{
+    width: 55px;
+}
+table tr:hover{
+    opacity: 0.5;
+}
+table tr{
+    transition: all 1s ease 0s;
+}
+table tr:active{
+    opacity: 1;
+    background-color: rgb(73, 73, 73);
+}
